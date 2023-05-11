@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: isaqb-architecture-foundation-summary.netlify.app
+Token: 2ffbac7710d2af3ab252396cb4149ff69d581a92d605e0c4eea7fd60243b1ff1
