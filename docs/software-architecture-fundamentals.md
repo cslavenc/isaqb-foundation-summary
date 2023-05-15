@@ -16,12 +16,13 @@ keywords: [fundamentals of software architecture]
 
 ## Important definitions
 
-**System:** A collection of components organized to accomplish a specific function or set of functions.  
-**Software:** Computer programs, procedures, and possibly associated documentation and data pertaining to the operation
-of a computer system.
-**Software-intensive system:** A collection of building blocks that together accomplishes the purpose of a system. The
-buildings blocks are entirely or for the most part of software, which consists of procedures, programs, data and
-documentation.
+- **System:** A collection of components organized to accomplish a specific function or set of functions.
+- **Software:** Computer programs, procedures, and possibly associated documentation and data pertaining to the
+  operation
+  of a computer system.
+- **Software-intensive system:** A collection of building blocks that together accomplishes the purpose of a system. The
+  buildings blocks are entirely or for the most part of software, which consists of procedures, programs, data and
+  documentation.
 
 The **software architecture** defines the fundamental principles and rules for the organization of a system and its
 structure into building blocks and interfaces, and their relationships to each other and to the surrounding environment.
