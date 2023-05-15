@@ -7,9 +7,8 @@ keywords: [fundamentals of software architecture]
 # Software Architecture Fundamentals
 
 - **Types of software:** application, support, system software. Depending on the point of view of a user, engineer etc.,
-  the
-  same software can be any of the mentioned types at the same time. E.g. a web browser is application software from the
-  point of view of a user, but system software for an engineer.
+  the same software can be any of the mentioned types at the same time. E.g. a web browser is application software from
+  the point of view of a user, but system software for an engineer.
 - **Custom and Standard software:** Custom software is more specialized for a specific purpose. Standard software tries
   to be generalizable across a business domain in terms of function and feel, but can sometimes be customized to some
   extent.
@@ -18,8 +17,7 @@ keywords: [fundamentals of software architecture]
 
 - **System:** A collection of components organized to accomplish a specific function or set of functions.
 - **Software:** Computer programs, procedures, and possibly associated documentation and data pertaining to the
-  operation
-  of a computer system.
+  operation of a computer system.
 - **Software-intensive system:** A collection of building blocks that together accomplishes the purpose of a system. The
   buildings blocks are entirely or for the most part of software, which consists of procedures, programs, data and
   documentation.
