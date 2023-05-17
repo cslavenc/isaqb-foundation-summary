@@ -186,8 +186,8 @@ keywords: [design software, how to design software architecture]
     - **Dependency injection for externalization of dependencies**: A class that is used by another class should not be
       depended on changes in that other class. Thus, the classes that use a specific class is injected into them. Often,
       an interface to break strong-coupling and an injector class is used. Classes that need a dependency injected have
-      to implement an **accept or setter** method to accept in injected class or a dependent class can be injected via *
-      *constructor injection** (often the case in spring boot, e.g. when a service is used in a controller).
+      to implement an **accept or setter** method to accept in injected class or a dependent class can be injected via
+      **constructor injection** (often the case in spring boot, e.g. when a service is used in a controller).
 
     - **The relationships between dependencies in the model and in the source code of programming languages**:
       Dependencies in the model take place on a high-level point of view that can be modelled conveniently with UMLs.
