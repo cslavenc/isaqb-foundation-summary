@@ -54,9 +54,9 @@ keywords: [description software architecture, communicate software architecture]
 
 - **Describe interfaces**  
   Interfaces often regulate the communication between two building blocks. If the building blocks are part of the same
-  system, they communicate via **internal** interfaces. If a building block communicates with an external systems, then
+  system, they communicate via **internal** interfaces. If a building block communicates with external systems, then
   communication takes place via **external** interfaces, which is the entrypoint to expose internal components to the
-  outside.A description for an interface usually contains a **precise name and version**, **syntax and semantics** of a
+  outside. A description for an interface usually contains a **precise name and version**, **syntax and semantics** of a
   resource, **error scenarios** (e.g. why a 401 UNAUTHORIZED error occurred), **configurability** of parameters to
   change the behaviour, notes or **examples** etc.
 
