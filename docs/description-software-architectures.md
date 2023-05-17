@@ -42,8 +42,8 @@ keywords: [description software architecture, communicate software architecture]
     - **Runtime view**: A runtime view describes the operational flow of a system when it is actually being deployed and
       is up-and-running. Often represented with UML activity, sequence and communication diagrams.
     - **Deployment (infrastructure) view**: The deployment view describes the infrastructure on which the software is
-      deployed and the processes from local code, via potential CI/CD pipelines to the environment it is deployed to (
-      e.g. to a cloud or a hosted, on-premise environment).
+      deployed and the processes from local code, via potential CI/CD pipelines to the environment it is deployed to
+      (e.g. to a cloud or a hosted, on-premise environment).
 
 - **Explain and use the system context**  
   The system context puts the software in relation to the wider context, such as how it interacts with other available
