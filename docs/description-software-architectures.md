@@ -6,6 +6,11 @@ keywords: [description software architecture, communicate software architecture]
 
 # Description and Communication of Software Architectures
 
+Software architectures are usually described with specific **UML diagrams**. There are various types of UML diagrams to
+create blueprints for software architectures. **Business Process Model and Notation (BPMN)** is a modelling language
+normally used by business analysts etc. to model high-level business processes. It is a helpful supplement for UML
+diagrams.
+
 - **Black box**: A building block where its internal details are unknown. A black box gets an input and usually produces
   an output. Its task has to be clearly defined as well as what kind of input it accepts and output it produces.
 - **White box**: A building block with its internal structure known and specified. Usually, white boxes describe a
