@@ -393,6 +393,12 @@ Thus, the process of creating a good software architecture requires creativity a
       the system and be time-consuming.</li>
     <li><b>Portability</b>: The software should be portable to other systems and environments.</li>
 
+  Some quality characteristics can influence each other in negative (or positive) ways and thus, they force tradeoffs:
+    <li>configurability versus reliability</li>
+    <li>memory requirements versus performance efficiency</li>
+    <li>security versus usability</li>
+    <li>runtime flexibility versus maintainability</li>
+
   Another quality characteristic is scalability. Vertical scalability is concerned if a component (e.g. a server)
   can easily be exchanged with a more performant component, while horizontal scalability is concerned if more
   components of the same type can easily be added (e.g. more servers).  

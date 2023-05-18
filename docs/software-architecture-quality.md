@@ -26,6 +26,12 @@ keywords: [quality software architecture]
       the system and be time-consuming.
     - **Portability**: The software should be portable to other systems and environments.
 
+  Some quality characteristics can influence each other in negative (or positive) ways and thus, they force tradeoffs:
+  - configurability versus reliability
+  - memory requirements versus performance efficiency
+  - security versus usability
+  - runtime flexibility versus maintainability.
+
   Another quality characteristic is scalability. Vertical scalability is concerned if a component (e.g. a server)
   can easily be exchanged with a more performant component, while horizontal scalability is concerned if more
   components of the same type can easily be added (e.g. more servers).  
