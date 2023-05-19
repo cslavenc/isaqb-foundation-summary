@@ -21,20 +21,16 @@ keywords: [design software, how to design software architecture]
 
 - **High-level considerations for software architecture development**:
     - **Divide and conquer**: A reductionist approach which breaks down a problem into sub problems and partial
-      solutions,
-      similar to a top-down approach
-    - **Decomposition**: Building blocks should be encapsulated to reduce their dependencies, such that they can be
-      treated
-      as black boxes leading to low coupling and high cohesion
+      solutions, similar to a top-down approach
+    - **Decomposition**: Building blocks should be encapsulated to reduce their dependencies, such that they can
+      be treated as black boxes leading to low coupling and high cohesion
     - **Separation of concerns**: An aspect of a problem should be separated from the overall problem and addressed
       individually. This should occur at all levels of the system and during all times of architectural development. In
       particular, functional and technical aspects of a system should be separated and addressed individually.
     - **Information hiding**: Building blocks are encapsulated and moreover, direct access to their internal structure
-      is
-      denied. Interaction takes place via interfaces or getters, setters etc.
+      is denied. Interaction takes place via interfaces or getters, setters etc.
     - **Interfaces**: Communication via building blocks takes place via interfaces that function as a promise for a
-      certain
-      behaviour.
+      certain behaviour.
 
 - **Design patterns**:
     - **Adapter (structural)**: Used when existing modules are incompatible with a required interface by creating second
@@ -82,10 +78,9 @@ keywords: [design software, how to design software architecture]
       are defined in more detail. At the **model-based** level, internal details of a functional or technical component
       are specified (program design and implementation level).
     - **Model-based and domain-driven design**: In **domain-driven design**, the system is structured into purely
-      functional
-      components. These components are known as entities and realize the overall function of a system. Moreover,
-      entities are usually persisted. In **model-based design**, software components are created with models that are
-      generated from UML diagrams.
+      functional components. These components are known as entities and realize the overall function of a system.
+      Moreover, entities are usually persisted. In **model-based design**, software components are created with models
+      that are generated from UML diagrams.
     - **Iterative and incremental design**: **iterative** design incorporates feedback and **incremental** way of work
       drives development forward
     - **Top-down and bottom-up design**: A top-down approach breaks a problem down into sub problems until they can no
@@ -119,10 +114,11 @@ keywords: [design software, how to design software architecture]
     - **Data-flow and data-centric architectural styles**: Layered structures such as **pipes and filters** can help to
       develop a data-centric architecture. While a pipe passes the result from the previous operation to the next, the
       filters actually modify or filter the data. This enables stepwise processing (often the case in preprocessing
-      pipelines for data-centric situations such as machine learning). With a **blackboard** pattern, several sources
-      make their knowledge available to each other to arrive at an approximated solution. Knowledge sources send their
-      solution to a partial or full problem to the blackboard. The blackboard component manages these solutions while a
-      control component monitors the blackboard and if necessary controls the execution of knowledge sources.
+      pipelines for data-centric situations such as machine learning).  
+      With a **blackboard** pattern, several sources make their knowledge available to each other to arrive at an
+      approximated solution. Knowledge sources send their solution to a partial or full problem to the blackboard. The
+      blackboard component manages these solutions while a control component monitors the blackboard and if necessary
+      controls the execution of knowledge sources.
     - **Hierarchical architectural styles**: Hierarchical styles usually follow a top-down approach and try to divide a
       problem into smaller sub problems until they can no longer be divided.
     - **Architectural styles for interactive systems**:
@@ -141,13 +137,12 @@ keywords: [design software, how to design software architecture]
     - **Architectural styles for asynchronous or distributed systems**: In distributed systems, subsystems have to
       communicate with each other. **Brokers** allow for an easy data exchange (messages) between two (micro-)
       services (Kafka, RabbitMQ). **Service-oriented architectures (SOA)** decomposes a complex system into several
-      smaller
-      subsystems that perform an independent function and communicate with other systems. Microservices go one step
-      lower, where a system is divided into multiple smaller microservices that all perform a separate function to
+      smaller subsystems that perform an independent function and communicate with other systems. Microservices go one
+      step lower, where a system is divided into multiple smaller microservices that all perform a separate function to
       fulfill a common goal. Thus, a SOA is concerned with an enterprise-wide level, while microservices are concerned
       with software- / system-wide levels.
     - **Other architectural patterns and styles**: Other design patterns include adapters, proxies, observers,
-      decorators, facades, brides, states, mediators as well as creational design patterns.
+      decorators, facades, bridges, states, mediators as well as creational design patterns.
     - **Important sources for architectural patterns**:
       [Design patterns by the Gang of Four](https://springframework.guru/gang-of-four-design-patterns/) etc.
 
@@ -222,9 +217,9 @@ keywords: [design software, how to design software architecture]
       further divided into subcomponents which from an implementer's point of view are white boxes. As white boxes,
       their internal details are known to the implementer.
     - Building blocks can be composed of other building blocks in multiple ways: inheritance allows a child building
-      block to inherit public or protected members of its members, but it leads to stronger coupling. Also, a building
-      block can be a nested class inside another class and lead to even stronger coupling. On the other hand, delegation
-      or using dependency injection reduces coupling.
+      block to inherit public or protected members of its parent building block, but it leads to stronger coupling.
+      Also, a building block can be a nested class inside another class and lead to even stronger coupling. On the other
+      hand, delegation or using dependency injection reduces coupling.
     - Building blocks that fulfill the same purpose together have high cohesion with one another and should be placed
       under the same package (**weak semantic aggregation**). Building blocks that implement the same interface have
       high cohesiveness and low coupling. This offers a semantically stronger form of aggregation.
@@ -235,4 +230,3 @@ keywords: [design software, how to design software architecture]
   necessary functionality to fulfill a certain behaviour or purposes. Furthermore, a building block acts as black box
   more strongly via an interface.  
   External interfaces are employed when an external system has to interact with internal building blocks.
-
