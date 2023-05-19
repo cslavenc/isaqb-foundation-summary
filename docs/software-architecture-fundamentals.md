@@ -24,7 +24,7 @@ keywords: [fundamentals of software architecture]
 
 The **software architecture** defines the fundamental principles and rules for the organization of a system and its
 structure into building blocks and interfaces, and their relationships to each other and to the surrounding environment.
-It thus defines guidelines for the entire software lifecycle, the developer, and the software’s operator, from analysis
+It thus defines guidelines for the entire software lifecycle, the developer, and the software's operator, from analysis
 via design and implementation to operation and enhancement.
 
 **Information systems** focus on managing and processing large amounts of complex data. Many users have to interact with
@@ -93,7 +93,7 @@ implementation (e.g. a function, class, object):
   the software architecture iteratively.
 
 - **Differentiate between architecture and project objectives**  
-  A system can be developed withing scrum sprints, iterations, releases, traditional projects and other approaches.
+  A system can be developed within scrum sprints, iterations, releases, traditional projects and other approaches.
   Usually, a project objective is concerned with the effective implementation of a feature or an underlying
   architectural pattern. An architectural objective is usually concerned with the final design of a software
   architecture with its constraints, advantages, disadvantages and other factors that might influence effective project
